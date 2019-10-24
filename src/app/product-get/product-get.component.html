@@ -8,7 +8,7 @@
       <td>Product Name</td>
       <td>Product Description</td>
       <td>Product Price</td>
-      <td colspan="2">Actions</td>
+      <td></td>
     </tr>
   </thead>
 
@@ -18,15 +18,18 @@
       <td>{{ product.ProductDescription }}</td>
       <td>{{ product.ProductPrice }}</td>
       <td>
-        <a [routerLink]="['/edit', product._id]" class="btn btn-primary"
-          >Edit</a
+        <button
+          [routerLink]="['/edit', product._id]"
+          class="btn btn-primary btn-sm"
         >
-      </td>
-
-      <td>
-        <a (click)="deleteProduct(product._id)" class="btn btn-danger"
-          >Delete</a
+          Edit
+        </button>
+        <button
+          (click)="deleteProduct(product._id)"
+          class="btn btn-danger btn-sm"
         >
+          Delete
+        </button>
       </td>
     </tr>
   </tbody>

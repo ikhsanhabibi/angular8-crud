@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-coffe'`, () => {
+  it(`should have as title 'angular8-crud'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('angular-coffe');
+    expect(app.title).toEqual('angular8-crud');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('angular-coffe app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('angular8-crud app is running!');
   });
 });

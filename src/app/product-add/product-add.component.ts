@@ -26,6 +26,8 @@ export class ProductAddComponent implements OnInit {
 
   addProduct(ProductName, ProductDescription, ProductPrice) {
     this.ps.addProduct(ProductName, ProductDescription, ProductPrice);
+    alert("Succesfully added.");
+    this.angForm.reset();
   }
 
   ngOnInit() {}

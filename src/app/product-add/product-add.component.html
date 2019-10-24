@@ -81,10 +81,18 @@
             )
           "
           type="submit"
-          class="btn btn-primary"
+          class="btn btn-primary btn-block"
           [disabled]="angForm.pristine || angForm.invalid"
         >
           Create Product
+        </button>
+        <button
+          type="reset"
+          class="btn btn-warning btn-block"
+          [disabled]="angForm.pristine"
+          (click)="angForm.reset()"
+        >
+          Reset
         </button>
       </div>
     </form>

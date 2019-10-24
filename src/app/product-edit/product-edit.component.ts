@@ -53,6 +53,7 @@ export class ProductEditComponent implements OnInit {
       );
 
       this.router.navigate(["/products"]).then(() => {
+        alert('Product succesfully updated.')
         window.location.reload();
       });
     });
