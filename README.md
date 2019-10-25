@@ -1,6 +1,6 @@
-# Angular 8
+# Angular 8 BEST
 
-https://appdividend.com/2019/06/04/angular-8-tutorial-with-example-learn-angular-8-crud-from-scratch/
+Tutorial : https://appdividend.com/2019/06/04/angular-8-tutorial-with-example-learn-angular-8-crud-from-scratch/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.10.
 
